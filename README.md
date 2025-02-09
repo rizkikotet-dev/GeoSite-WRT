@@ -18,10 +18,10 @@
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **country.mmdb** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/country.mmdb) |
-| **geoip.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.dat) |
-| **geoip.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.db) |
-| **geoip.metadb** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.metadb) |
+| **country.mmdb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/country.mmdb) |
+| **geoip.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.dat) |
+| **geoip.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.db) |
+| **geoip.metadb** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geoip.metadb) |
 
 ## **geosite.dat,geosite.db**
 
@@ -52,8 +52,8 @@
 
 | Name Content | Link Download |
 | ------------ | ------------- |
-| **geosite.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.dat) |
-| **geosite.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.db) |
+| **geosite.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) |
+| **geosite.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) |
 
 
 ## **OpenClash-Meta**
