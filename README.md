@@ -55,6 +55,16 @@
 | **geosite.dat** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.dat) |
 | **geosite.db** | [Github release](https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rizkikotet-dev/GeoSite-WRT@release/geosite.db) |
 
+---
+## Install & Update
+
+### Use Auto Script
+
+```shell
+bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/main/main.sh')"
+```
+
+---
 
 ## **OpenClash-Meta**
 
