@@ -133,13 +133,40 @@ OpenClash() {
     cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat -o $OPENCLASH_DIR/GeoIP.dat" "Install GeoIP"
     cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat -o $OPENCLASH_DIR/GeoSite.dat" "Install GeoSite"
     cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb -o $OPENCLASH_DIR/Country.mmdb" "Install Country"
+
+    cmdinstall "uci set openclash.config.geo_custom_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb'" "Set Country"
+	cmdinstall "uci set openclash.config.geosite_custom_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat'" "Set GeoSite"
+	cmdinstall "uci set openclash.config.geoip_custom_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat'" "Set GeoIP"
+	cmdinstall "uci set openclash.config.geo_auto_update='1'" "Set Geo Auto Update"
+	cmdinstall "uci set openclash.config.geo_update_week_time='1'" "Set Geo Week Time"
+	cmdinstall "uci set openclash.config.geo_update_day_time='0'" "Set Geo Day Time"
+	cmdinstall "uci set openclash.config.geoip_auto_update='1'" "Set GeoIP Auto Update"
+	cmdinstall "uci set openclash.config.geoip_update_week_time='1'" "Set GeoIP Week Time"
+	cmdinstall "uci set openclash.config.geoip_update_day_time='0'" "Set GeoIP Day Time"
+	cmdinstall "uci set openclash.config.geosite_auto_update='1'" "Set GeoSite Auto Update"
+	cmdinstall "uci set openclash.config.geosite_update_week_time='1'" "Set GeoSite Week Time"
+	cmdinstall "uci set openclash.config.geosite_update_day_time='0'" "Set GeoSite Day Time"
+    cmdinstall "uci set openclash.config.geodata_loader='memconservative'" "Set Geodata Loader"
+	cmdinstall "uci set openclash.config.enable_geoip_dat='1'" "Set Enable GeoIP"
+    cmdinstall "uci commit openclash" "Commit OpenClash"
+
     echo -e "${SUCCESS} Configuration installation completed successfully!"
 }
 
 Mihomo() {
     cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat -o $MIHOMO_DIR/GeoIP.dat" "Install GeoIP"
     cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat -o $MIHOMO_DIR/GeoSite.dat" "Install GeoSite"
-    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/country.mmdb -o $MIHOMO_DIR/Country.mmdb" "Install Country"
+    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb -o $MIHOMO_DIR/GeoIP.metadb" "Install GeoMeta"
+    
+    cmdinstall "uci set mihomo.mixin.geoip_format='dat'" "Set GeoIP Format"
+	cmdinstall "uci set mihomo.mixin.geodata_loader='memconservative'" "Set Geodata Loadder"
+	cmdinstall "uci set mihomo.mixin.geosite_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat'" "Set GeoSite URL"
+	cmdinstall "uci set mihomo.mixin.geoip_mmdb_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb'" "Set GeoMeta URL"
+	cmdinstall "uci set mihomo.mixin.geoip_dat_url='https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat'" "Set GeoIP URL"
+	cmdinstall "uci set mihomo.mixin.geox_auto_update='1'" "Set GeoX Auto Udate"
+	cmdinstall "uci set mihomo.mixin.geox_update_interval='24'" "Set GeoX Interval"
+    cmdinstall "uci commit mihomo" "Commit Mihomo"
+
     echo -e "${SUCCESS} Configuration installation completed successfully!"
 }
 
