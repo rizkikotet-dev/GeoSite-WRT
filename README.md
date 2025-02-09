@@ -61,7 +61,7 @@
 ### Use Auto Script
 
 ```shell
-bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/main/main.sh')"
+bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 
 ---
