@@ -1,22 +1,20 @@
 ## **RTA SERVER**：
 
-## Best Rule Clash Meta - SingBox Generator
+## Best Rule Clash Meta - Mihomo - SingBox Generator
 
-## **country.mmdb,geoip.dat,geoip.db - country-lite.mmdb,geoip-lite.dat,geoip-lite.db**
+## **country.mmdb,geoip.dat,geoip.db**
 
 - Cara penggunaannya sama dengan [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)  
 
-| country.mmdb,geoip.dat | country-lite.mmdb,geoip-lite.dat |
-| ---------------- | ----------------------------- | 
-| `geoip:id` **Routing Indonesia Only**       |  `geoip:cloudflare`                     | 
-| `geoip:cloudflare`       | `geoip:cloudfront`                      |  
-| `geoip:cloudfront`       | `geoip:facebook` |
-| `geoip:facebook`       | `geoip:bilibili`          |
-| `geoip:netflix` | `geoip:google` |
-| `geoip:telegram` | `geoip:netflix` |
-| `geoip:twitter` | `geoip:telegram` |
-| | `geoip:twitter` |
-| | `geoip:apple` |
+| country.mmdb,geoip.dat |
+| ---------------- |
+| `geoip:id` **Routing Indonesia Only**| 
+| `geoip:cloudflare` |
+| `geoip:cloudfront` | 
+| `geoip:facebook` | 
+| `geoip:netflix` |
+| `geoip:telegram` | 
+| `geoip:twitter` | 
 
 | Name Content | Link Download |
 | ------------ | ------------- |
@@ -24,12 +22,8 @@
 | **geoip.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.dat) |
 | **geoip.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.db) |
 | **geoip.metadb** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip.metadb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.metadb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip.metadb) |
-| **country-lite.mmdb** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/country-lite.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/country-lite.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/country-lite.mmdb) |
-| **geoip-lite.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip-lite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.dat) |
-| **geoip-lite.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip-lite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.db) |
-| **geoip-lite.mmdb** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geoip-lite.mmdb) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.mmdb) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geoip-lite.mmdb) |
 
-## **geosite.dat,geosite.db - geosite-lite.dat,geosite-lite.db**
+## **geosite.dat,geosite.db**
 
 - Cara penggunaannya sama dengan [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)  
 
@@ -53,30 +47,13 @@
 |  `geosite:videoconference` |
 |  `geosite:rule-malicious` |
 |  `geosite:urltest` |
-
-| geosite-lite.dat,geosite-lite.db |
-| ----------------------------- | 
-| `geosite:apple` |
-| `geosite:applemusic` |
-| `geosite:biliintl` |
-| `geosite:ehentai` |
-| `geosite:google` |
-| `geosite:github` |
-| `geosite:microsoft` |
-| `geosite:netflix` |
-| `geosite:spotify` |
-| `geosite:telegram` |
-| `geosite:twitter` |
-| `geosite:tiktok` |
-| `geosite:youtube` |
+|  `geosite:bank-id` |
 
 
 | Name Content | Link Download |
 | ------------ | ------------- |
 | **geosite.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.dat) |
 | **geosite.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite.db) |
-| **geosite-lite.dat** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite-lite.dat) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite-lite.dat) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite-lite.dat) |
-| **geosite-lite.db** | [Github release](https://github.com/rtaserver/meta-rules-dat/releases/download/latest/geosite-lite.db) - [JSdelivr](https://cdn.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite-lite.db) - [JSdelivr-CF](https://testingcf.jsdelivr.net/gh/rtaserver/meta-rules-dat@release/geosite-lite.db) |
 
 
 ## **OpenClash-Meta**
