@@ -59,9 +59,13 @@
 ## Install & Update
 
 ### Use Auto Script
-
+- Wget
 ```shell
 bash -c "$(wget -qO - 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
+```
+- Curl
+```shell
+bash -c "$(curl -fsSL 'https://github.com/rizkikotet-dev/GeoSite-WRT/raw/refs/heads/master/main.sh')"
 ```
 
 ---
