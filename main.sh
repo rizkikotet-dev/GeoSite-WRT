@@ -3,7 +3,7 @@
 # Script configuration
 VERSION="1.1"
 TEMP_DIR="/tmp"
-MIHOMO_DIR="/etc/mihomo/run"
+NIKKI_DIR="/etc/nikki/run"
 OPENCLASH_DIR="/etc/openclash"
 
 setup_colors() {
@@ -153,19 +153,19 @@ OpenClash() {
     echo -e "${SUCCESS} Configuration installation completed successfully!"
 }
 
-Mihomo() {
-    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat -o $MIHOMO_DIR/GeoIP.dat" "Install GeoIP"
-    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat -o $MIHOMO_DIR/GeoSite.dat" "Install GeoSite"
-    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb -o $MIHOMO_DIR/GeoIP.metadb" "Install GeoMeta"
+Nikki() {
+    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat -o $NIKKI_DIR/GeoIP.dat" "Install GeoIP"
+    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat -o $NIKKI_DIR/GeoSite.dat" "Install GeoSite"
+    cmdinstall "curl -L https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb -o $NIKKI_DIR/GeoIP.metadb" "Install GeoMeta"
     
-    cmdinstall "uci set mihomo.mixin.geoip_format=dat" "Set GeoIP Format"
-	cmdinstall "uci set mihomo.mixin.geodata_loader=memconservative" "Set Geodata Loadder"
-	cmdinstall "uci set mihomo.mixin.geosite_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat" "Set GeoSite URL"
-	cmdinstall "uci set mihomo.mixin.geoip_mmdb_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb" "Set GeoMeta URL"
-	cmdinstall "uci set mihomo.mixin.geoip_dat_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat" "Set GeoIP URL"
-	cmdinstall "uci set mihomo.mixin.geox_auto_update=1" "Set GeoX Auto Udate"
-	cmdinstall "uci set mihomo.mixin.geox_update_interval=24" "Set GeoX Interval"
-    cmdinstall "uci commit mihomo" "Commit Mihomo"
+    cmdinstall "uci set nikki.mixin.geoip_format=dat" "Set GeoIP Format"
+	cmdinstall "uci set nikki.mixin.geodata_loader=memconservative" "Set Geodata Loadder"
+	cmdinstall "uci set nikki.mixin.geosite_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geosite.dat" "Set GeoSite URL"
+	cmdinstall "uci set nikki.mixin.geoip_mmdb_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.metadb" "Set GeoMeta URL"
+	cmdinstall "uci set nikki.mixin.geoip_dat_url=https://github.com/rizkikotet-dev/GeoSite-WRT/releases/download/latest/geoip.dat" "Set GeoIP URL"
+	cmdinstall "uci set nikki.mixin.geox_auto_update=1" "Set GeoX Auto Udate"
+	cmdinstall "uci set nikki.mixin.geox_update_interval=24" "Set GeoX Interval"
+    cmdinstall "uci commit nikki" "Commit Nikki"
 
     echo -e "${SUCCESS} Configuration installation completed successfully!"
 }
@@ -179,7 +179,7 @@ display_menu() {
     echo -e " Created : ${GREEN}RizkiKotet${RESET}"
     echo -e "${CYAN}═══════════════════════════════════════════${RESET}"
     echo -e " ${YELLOW}1.${RESET} Install / Update Untuk ${GREEN}OpenClash${RESET}"
-    echo -e " ${YELLOW}2.${RESET} Install / Update Untuk ${GREEN}Mihomo${RESET}"
+    echo -e " ${YELLOW}2.${RESET} Install / Update Untuk ${GREEN}Nikki${RESET}"
     echo -e " ${YELLOW}x.${RESET} Keluar"
     echo -e "${CYAN}═══════════════════════════════════════════${RESET}"
     echo -e " Notes:"
@@ -200,9 +200,9 @@ main() {
             OpenClash
             ;;
             2) 
-            echo -e "${INFO} Memulai Install/Update untuk Mihomo..." 
+            echo -e "${INFO} Memulai Install/Update untuk Nikki..." 
             check_dependencies
-            Mihomo
+            Nikki
             ;;
             [xX]) echo -e "${INFO} Keluar..."; exit 0 ;;
             *) echo -e "${WARNING} Pilihan tidak valid!" ;;
