@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "twitterflightschool.com",
+        "t.co",
+        "twtrdns.net",
+        "pscp.tv",
+        "twittercommunity.com",
+        "tellapart.com",
+        "tweetdeck.com",
+        "twitter.com",
+        "twitpic.com",
+        "twitter.biz",
+        "x.com",
+        "cms-twdigitalassets.com",
+        "periscope.tv",
+        "twvid.com",
+        "twimg.com",
+        "twitterinc.com",
+        "twitteroauth.com",
+        "twitterstat.us",
+        "ads-twitter.com",
+        "twttr.com",
+        "twttr.net",
+        "twitter.jp",
+        "vine.co",
+        "x.ai",
+        "twitter.map.fastly.net"
+      ],
+      "domain_suffix": [
+        ".twitterflightschool.com",
+        ".t.co",
+        ".twtrdns.net",
+        ".pscp.tv",
+        ".twittercommunity.com",
+        ".tellapart.com",
+        ".tweetdeck.com",
+        ".twitter.com",
+        ".twitpic.com",
+        ".twitter.biz",
+        ".x.com",
+        ".cms-twdigitalassets.com",
+        ".periscope.tv",
+        ".twvid.com",
+        ".twimg.com",
+        ".twitterinc.com",
+        ".twitteroauth.com",
+        ".twitterstat.us",
+        ".ads-twitter.com",
+        ".twttr.com",
+        ".twttr.net",
+        ".twitter.jp",
+        ".vine.co",
+        ".x.ai",
+        ".twitter.map.fastly.net"
+      ]
+    }
+  ]
+}
