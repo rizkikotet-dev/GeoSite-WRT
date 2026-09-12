@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "log-upload-os.hoyoverse.com",
+        "insights-collector.gog.com",
+        "ads-pixiv.net",
+        "ads.youtube.com",
+        "adeventtracker.spotify.com",
+        "adstudio-assets.scdn.co",
+        "bloodhound.spotify.com",
+        "analytics.tiktok.com",
+        "disney.my.sentry.io"
+      ],
+      "domain_suffix": [
+        ".log-upload-os.hoyoverse.com",
+        ".insights-collector.gog.com",
+        ".ads-pixiv.net",
+        ".ads.youtube.com",
+        ".analytics.tiktok.com"
+      ]
+    }
+  ]
+}
