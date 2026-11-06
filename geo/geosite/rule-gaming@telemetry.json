@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "insights-collector.gog.com",
+        "sentry.ppy.sh",
+        "log-upload-os.hoyoverse.com",
+        "log-upload.mihoyo.com",
+        "analytics.163.com",
+        "crash.163.com",
+        "crashlytics.163.com",
+        "sentry.music.163.com"
+      ],
+      "domain_suffix": [
+        ".insights-collector.gog.com",
+        ".log-upload-os.hoyoverse.com",
+        ".log-upload.mihoyo.com",
+        ".analytics.163.com",
+        ".crash.163.com",
+        ".crashlytics.163.com",
+        ".sentry.music.163.com"
+      ]
+    }
+  ]
+}
