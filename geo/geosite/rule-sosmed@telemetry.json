@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "log.dzen.ru",
+        "stats.vk-portal.net"
+      ],
+      "domain_suffix": ".log.dzen.ru"
+    }
+  ]
+}
